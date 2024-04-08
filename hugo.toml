@@ -29,7 +29,7 @@ defaultContentLanguageInSubdir = true
         languageCode = "en-US"
         languageDirection = "ltr"
         languageName = "English"
-        title = "Petr Geršl"
+        title = "Petr Geršl - Wiki"
         weight = 1
         flag = "/media/img/base/en.png"
         [languages.en.params]
