@@ -1,0 +1,11 @@
+{{define "title"}}<title>{{.Title}}</title>{{end}}
+
+{{define "main"}}
+    <section>
+        <div class="section-content page-links">
+            {{range .Pages}}
+                <a href="{{.RelPermalink}}" target="_self">{{.Params.icon}} {{.Title}}</a>
+            {{end}}
+        </div>
+    </section>
+{{end}}

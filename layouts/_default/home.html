@@ -1,0 +1,31 @@
+{{define "title"}}<title>{{.Site.Title}}</title>{{end}}
+{{define "styles"}}<link rel="stylesheet" href="/css/home.css">{{end}}
+{{define "main"}}
+    <section id="home-now">
+        <div class="section-content">
+            <img src="/media/img/base/me.jpg">
+            <div id="home-now-content">{{.Content}}</div>
+        </div>
+        <div class="section-content page-links">
+            {{with .Site.GetPage "contents.md"}}
+                {{.Content}}
+            {{end}}
+        </div>
+    </section>
+    <section id="home-find-me">
+        <h1>
+            {{if strings.HasPrefix .RelPermalink "/cs/"}}
+                Najděte mě
+            {{else if strings.HasPrefix .RelPermalink "/fr/"}}
+                Trouvez-moi
+            {{else}}
+                Find me
+            {{end}}
+        </h1>
+        <div class="social-links section-content">
+            <a href="http://localhost:1313/linkedin.com/in/petr-ger%C5%A1l-9324491a6" class="social-link"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/pgersl" class="social-link"><i class="fa-brands fa-square-github"></i></a>
+            <a href="https://pgersl.bandcamp.com/" class="social-link"><i class="fa-brands fa-bandcamp"></i></a>
+        </div>
+    </section>
+{{end}}
