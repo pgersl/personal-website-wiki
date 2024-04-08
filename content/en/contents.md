@@ -1,5 +1,4 @@
 ---
 title: Contents
 ---
-
-WORK IN PROGRESS! CONTENT COMING SOON!
+[<i class="fa-solid fa-language"></i> Translations to Czech](/translations)

@@ -63,11 +63,11 @@ li li {
 h1, h2, h3, h4, h5 {
     font-weight: bold;
     width: fit-content;
+    margin-bottom: .5em;
 }
 
 h1 {
     font-size: var(--h1-size);
-    margin-bottom: .5em;
     position: relative;
 }
 
@@ -114,7 +114,7 @@ section:nth-child(2n), section:nth-child(4n+2) {
     color: var(--light1);
 }
 
-.section-content, .footer-content {
+.section-content, .footer-content, .single-section-content {
     width: 95vw;
     max-width: 800px;
     padding: var(--spacer);
@@ -122,6 +122,11 @@ section:nth-child(2n), section:nth-child(4n+2) {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.single-section-content {
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 /*SCROLLBAR*/
@@ -188,15 +193,24 @@ nav i {
 
 .nav-links {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+.main-nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    padding-right: 1.5em;
+    border-right: solid 1px var(--light1);
 }
 
 .sites-nav-links {
     display: flex;
     flex-direction: row;
     gap: 1em;
+    padding-left: 1.5em;
 }
 
 .nav-link {
@@ -238,10 +252,56 @@ nav i {
     filter: brightness(1.5);
 }
 
+@media (max-width:600px) {
+    .nav-links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .sites-nav-links {
+        padding-left: 0;
+    }
+    .main-nav-links {
+        padding-right: 0;
+        border-right: none;
+    }
+}
+
 @media (max-width:320px) {
     nav {
         font-size: var(--tiny-size);
     }
+}
+
+/*PAGE LINKS*/
+
+.page-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.page-links a {
+    font-size: var(--h4-size);
+    text-decoration: none;
+    padding: .1em .4em;
+    background-color: var(--light2);
+    border-radius: .3em;
+    transition: var(--transition);
+}
+
+.page-links a:hover {
+    color: var(--light1);
+    background-color: var(--accent4);
+}
+
+.page-links i {
+    color: var(--accent6);
+    transition: var(--transition);
+}
+
+.page-links a:hover i {
+    color: var(--light1);
 }
 
 /*FOOTER*/

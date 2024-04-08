@@ -23,6 +23,7 @@
     --accent3: #bc641c;
     --accent4: #5a310e;
     --accent5: #d87e1e;
+    --accent6: #1eb0d8;
 
     --gradient1: linear-gradient(120deg, var(--dark1) 0%, var(--accent4) 100%);
     --gradient2: linear-gradient(90deg, var(--dark1) 0%, var(--accent4) 27%, var(--accent2) 100%);

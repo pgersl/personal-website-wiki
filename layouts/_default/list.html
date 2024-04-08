@@ -3,8 +3,9 @@
 {{define "main"}}
     <section>
         <div class="section-content page-links">
+            <h1>{{.Title}}</h1>
             {{range .Pages}}
-                <a href="{{.RelPermalink}}" target="_self">{{.Params.icon}} {{.Title}}</a>
+                <a href="{{.RelPermalink}}" target="_self"><i class="{{.Params.icon}}"></i> {{.Title}}</a>
             {{end}}
         </div>
     </section>
