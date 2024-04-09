@@ -4,7 +4,7 @@ icon: fa-solid fa-globe
 layout: single
 ---
 
-*Proč byste si měli vytvořit osobní wiki* (*Gary Sheng*)
+*[Proč byste si měli vytvořit osobní wiki](https://wiki.garysheng.com/docs/guides/writing/whywiki) (Gary Sheng)*
 
 Vytváření osobní wiki (jako je [wiki.garysheng.com](https://wiki.garysheng.com/)) slouží jako jedinečná platforma na dokumentaci, strukturování a sdílení vědění, značně odlišné od blogovacích platforem jako Substack. Ačkoliv obě platformy mají své místo a nějaký přesah jedna do druhé, mají různé funkce a slouží jiným typům obsahu.
 
