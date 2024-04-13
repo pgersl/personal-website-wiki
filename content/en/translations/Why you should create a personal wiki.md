@@ -4,7 +4,11 @@ icon: fa-solid fa-globe
 layout: single
 ---
 
-*[Proč byste si měli vytvořit osobní wiki](https://wiki.garysheng.com/docs/guides/writing/whywiki) (Gary Sheng)*
+> Na úvod jen několik poznámek:
+> - Dle Shengovy definice osobní wiki je taková wiki v podstatě souborem různých nástrojů (poznámek či průvodců) primárně faktického a neosobního charakteru. Já ale vnímám kocepci osobní wiki trochu jinak, tedy že i čistě osobní věcí musejí být její součástí. Moje wiki by měla sloužit nejen jako nástroj pro ostatní, aby se naučili to, co já, ale zároveň také jako prostor, na kterém se lépe a hlouběji představit.
+> - Garyho Shengova wiki je plná dalších zajímavých informací, mj. [také návod, jak wiki založit](https://wiki.garysheng.com/docs/guides/writing/howwiki) nebo [návody na psaní a komunikaci](https://wiki.garysheng.com/docs/guides/writing). Doporučuji je také projít.
+
+*[Proč byste si měli vytvořit osobní wiki](https://wiki.garysheng.com/docs/guides/writing/whywiki) ([Gary Sheng](https://www.garysheng.com/))*
 
 Vytváření osobní wiki (jako je [wiki.garysheng.com](https://wiki.garysheng.com/)) slouží jako jedinečná platforma na dokumentaci, strukturování a sdílení vědění, značně odlišné od blogovacích platforem jako Substack. Ačkoliv obě platformy mají své místo a nějaký přesah jedna do druhé, mají různé funkce a slouží jiným typům obsahu.
 

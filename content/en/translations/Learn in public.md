@@ -11,7 +11,7 @@ layout: single
 > - Weng končí svou esej s poněkud lukrativnějšími podtóny. Pochopitelně se nechci nijak stavět do opozice, ale věřím, že tento způsob učení a sdílení informací může být využit nejen s lukrativním záměrem.
 > - Nápady v této eseji se hezky doplňují s dalším příspěvkem, který jsem přložil o [osobní wiki od Garyho Shenga](/translations/why-you-should-create-a-personal-wiki)
 
-*[Učte se na veřejnosti](https://www.swyx.io/learn-in-public) (Shawn Weng)*
+*[Učte se na veřejnosti](https://www.swyx.io/learn-in-public) ([Shawn Weng](https://www.swyx.io/))*
 
 Jestli existuje zlaté pravidlo, pak je to toto, a proto ho dávám na první příčku. Všechna ostatní pravidla jsou více či méně rozvinutím tohoto pravidla.
 

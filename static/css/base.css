@@ -69,14 +69,29 @@ blockquote p {
     margin: 0;
 }
 
+blockquote ul, blockquote ol {
+    margin-bottom: 0;
+}
+
 blockquote {
-    padding: 1em 1em 1em 2em;
+    padding: 1em 1em 1em 4em;
     margin-bottom: 1em;
     background-color: var(--light2);
     border-radius: .2em;
     color: var(--accent4);
     border-left: solid 4px var(--accent5);
+    position: relative;
 }
+
+blockquote::before {
+    content: "\f075";
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    left: .9em;
+    top: 27px;
+    transform: translateY(-50%);
+    font-size: var(--h3-size);
+  }
 
 /*BASE ELEMENTS*/
 
