@@ -106,26 +106,6 @@ h1 {
     position: relative;
 }
 
-h1::before {
-    content: "";
-    position: absolute;
-    right: 110%;
-    top: 50%;
-    height: 4px;
-    width: 40px;
-    background-color: var(--accent2);
-}
-
-h1::after {
-    content: "";
-    position: absolute;
-    left: 110%;
-    top: 50%;
-    height: 4px;
-    width: 40px;
-    background-color: var(--accent2);
-}
-
 main {
     width: 100%;
 }
