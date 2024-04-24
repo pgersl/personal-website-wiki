@@ -7,8 +7,8 @@
             <div id="home-now-content">{{.Content}}</div>
         </div>
         <div class="section-content page-links">
-            {{with .Site.GetPage "contents.md"}}
-                {{.Content}}
+            {{range .Pages}}
+                <a href="{{.RelPermalink}}" class="page-link" target="_self"><i class="{{.Params.icon}}"></i> {{.Title}}</a>
             {{end}}
         </div>
     </section>

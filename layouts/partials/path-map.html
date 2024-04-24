@@ -1,0 +1,9 @@
+<div class="path-map">
+    {{with .Parent.Parent}}
+        <a class="path-map-link" href="{{.RelPermalink}}"><i class="{{.Params.icon}}"></i> {{.Title}}</a> <span>></span>
+    {{end}}
+    {{with .Parent}}
+        <a class="path-map-link" href="{{.RelPermalink}}"><i class="{{.Params.icon}}"></i> {{.Title}}</a> <span>></span>
+    {{end}}
+    <a class="path-map-link highlighted" href=""><i class="{{.Params.icon}}"></i> {{.Title}}</a>
+</div>

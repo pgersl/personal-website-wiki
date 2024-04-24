@@ -3,9 +3,13 @@
 {{define "main"}}
     <section>
         <div class="section-content page-links">
-            <h1>{{.Title}}</h1>
+            {{partial "path-map.html" .}}
+            <h1><i class="{{.Params.icon}}"></i> {{.Title}}</h1>
+            {{.Content}}
             {{range .Pages}}
-                <a href="{{.RelPermalink}}" target="_self"><i class="{{.Params.icon}}"></i> {{.Title}}</a>
+                {{if not .Params.unlisted}}
+                    <a href="{{.RelPermalink}}" class="page-link" target="_self"><i class="{{.Params.icon}}"></i> {{.Title}}</a>
+                {{end}}
             {{end}}
         </div>
     </section>

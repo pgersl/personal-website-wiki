@@ -213,19 +213,10 @@ nav i {
     justify-content: center;
 }
 
-.main-nav-links {
-    display: flex;
-    flex-direction: row;
-    gap: 1em;
-    padding-right: 1.5em;
-    border-right: solid 1px var(--light1);
-}
-
 .sites-nav-links {
     display: flex;
     flex-direction: row;
     gap: 1em;
-    padding-left: 1.5em;
 }
 
 .nav-link {
@@ -296,7 +287,7 @@ nav i {
     justify-content: flex-start;
 }
 
-.page-links a {
+.page-link {
     font-size: var(--h4-size);
     text-decoration: none;
     padding: .1em .4em;
@@ -306,17 +297,17 @@ nav i {
     margin-bottom: .3em;
 }
 
-.page-links a:hover {
+.page-link:hover {
     color: var(--light1);
     background-color: var(--accent4);
 }
 
-.page-links i {
+.page-link i {
     color: var(--accent6);
     transition: var(--transition);
 }
 
-.page-links a:hover i {
+.page-link:hover i {
     color: var(--light1);
 }
 
@@ -363,4 +354,26 @@ footer {
 
 .footer-link:hover {
     color: var(--light4);
+}
+
+/* PATH MAP */
+
+.path-map {
+    margin-bottom: 1.5em;
+}
+.path-map-link {
+    color: var(--dark1);
+    background-color: var(--light2);
+    text-decoration: none;
+    padding: .35em;
+    border-radius: .3em;
+    transition: var(--transition);
+}
+.path-map-link.highlighted {
+    background-color: var(--accent6);
+    color: var(--light1);
+}
+.path-map-link:hover {
+    color: var(--light1);
+    background-color: var(--accent4);
 }
