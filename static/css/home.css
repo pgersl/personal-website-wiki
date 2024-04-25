@@ -55,7 +55,7 @@ h1::after {
 }
 
 @media (max-width:450px) {
-    #home-now .section-content {
+    #home-now .section-content:first-child {
         flex-direction: column;
     }
 }
