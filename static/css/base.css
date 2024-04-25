@@ -290,11 +290,11 @@ nav i {
 .page-link {
     font-size: var(--h4-size);
     text-decoration: none;
-    padding: .1em .4em;
+    padding: .2em .4em;
     background-color: var(--light2);
     border-radius: .3em;
     transition: var(--transition);
-    margin-bottom: .3em;
+    margin-bottom: .5em;
 }
 
 .page-link:hover {
@@ -315,6 +315,13 @@ nav i {
 
 main {
     min-height: 55vh;
+}
+
+.main-title {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: .4em;
+    color: var(--accent1);
 }
 
 /*FOOTER*/
@@ -360,6 +367,11 @@ footer {
 
 .path-map {
     margin-bottom: 1.5em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: .4em;
+    align-items: center;
 }
 .path-map-link {
     color: var(--dark1);
@@ -368,6 +380,11 @@ footer {
     padding: .35em;
     border-radius: .3em;
     transition: var(--transition);
+    max-width: 200px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .path-map-link.highlighted {
     background-color: var(--accent6);

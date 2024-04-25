@@ -18,7 +18,7 @@ h1::after {
     background-color: var(--accent2);
 }
 
-#home-now .section-content {
+#home-now .section-content:first-child {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -29,14 +29,6 @@ h1::after {
     width: 200px;
     border-radius: 1em;
     border: solid 2px var(--accent2);
-}
-
-.page-links p {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    margin-bottom: 0;
 }
 
 .social-links {

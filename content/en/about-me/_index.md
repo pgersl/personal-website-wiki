@@ -1,5 +1,5 @@
 ---
-title: About Me
+title: About me
 type: index
 layout: list
 icon: fa-solid fa-user
